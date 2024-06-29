@@ -1,0 +1,289 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smotthening:antialised;
+}
+.flex{
+    display: flex;
+}
+.center{
+    justify-content: space-evenly;
+    align-items: center;
+}
+.btn{
+    padding:0.8rem 2rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all .3s ease;
+}
+.btn-primary{
+    background-color: aqua;
+    color: black;
+}
+.btn-primary:hover{
+    background: transparent;
+    border-color: aqua;
+    color: aqua;
+}
+.btn-secondary{
+    background: transparent;
+    color: aqua;
+    border-color: aqua;
+}
+.btn-secondary:hover{
+    background: aqua;
+    color: black;
+}
+header{
+    
+    background-color: black;
+    height: 700px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 87%, 0 100%);
+    
+
+    
+}
+.branding{
+    color: white;
+    font-size: 25px;
+    margin-left: 2rem;
+}
+.container{
+   
+    max-width: 1152px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.left a{
+   transition: all .3s ease;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    margin-right: 2rem;
+}
+.left a:hover{
+    color: aqua;
+}
+header nav{
+    padding: 2rem 0;
+}
+
+.first{
+    margin-left: 10rem;
+    margin-top: 2rem;
+    padding: 2rem 0;
+}
+.second{
+    color: white;
+    margin-left: 10rem;
+    margin-top: 8rem;
+}
+.second h6{
+    font-size: 1rem;
+    color: aqua;
+    margin-bottom: 1rem;
+    font-weight: 200;
+}
+.second h1{
+    font-size: 4rem;
+    font-weight: 50;
+    line-height: 1.2;
+
+}
+.second span{
+    color: aqua;
+    font-size: 4rem;
+
+}
+.para{
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+.second p{
+    font-size: 1rem;
+    line-height: 1.2;
+}
+section{
+    padding: 6rem 20rem;
+}
+.info{
+    margin-left: 4rem;
+    margin-top: 3rem;
+}
+.box{
+    border: 2px solid black;
+}
+.box:hover{
+    border:2px solid rgb(0, 153, 255);
+}
+.info span{
+    color: rgb(0, 153, 255);
+    font-weight: 200;
+}
+.info h1{
+    margin-bottom: 1rem ;
+
+    font-size: 40px;
+}
+.info h3{
+   margin-bottom: 1rem; 
+}
+.info p{
+    line-height: 1.4;
+    color: black;
+}
+.pa{
+    margin-top: 1rem;
+}
+.social a{
+    display: flex;
+    margin-top: 2rem;
+    padding: 0.3rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.social a img{
+   
+    padding: 0.rem;
+}
+.social a:hover{
+    background-color: rgb(0, 153, 255)
+}
+.heading{
+    color: rgb(0, 153, 255);
+    text-align: center;
+    margin-bottom: 1rem;
+    line-height: 0.5;
+    font-weight: 900;
+}
+.heading span{
+    color: black;
+}
+.heading +p{
+    color: rgb(97, 94, 94);
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 6rem;
+    text-align: center;
+}
+section.services{
+    background-color: rgb(210, 206, 206);
+}
+section.services .card-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 2rem;
+    grid-row-gap: 4rem;
+}
+section.services .card-wrapper .card{
+    background-color: white;
+    padding: 3rem 2rem;
+    position: relative;
+    text-align: center;
+    transition: all 3s ease;
+    padding-top: 3rem;
+}
+section.services .card img{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: -1.5rem;
+    left: 40%;
+
+}
+section.services .card-wrapper .card h2{
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: black;
+}
+section.services .card-wrapper .card p{
+    font-family: 'Lato',sans-serif;
+    color: rgb(95, 93, 93);
+    line-height: 1.6;
+}
+section.services .card-wrapper :hover{
+    background: black;
+}
+section.services .card-wrapper :hover h2,p{
+    color: white;
+}
+.see{
+    background-color: rgb(0, 153, 255);
+    color: black;
+    padding: 0.3rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    border-radius: 0.5;
+    outline: none;
+    cursor:pointer;
+}
+.freelancer{
+    text-align: center;
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,1));
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 75% 80%, 0 100%);
+    color: white;
+    padding-bottom: 13rem;
+    
+}
+.freelancer h1{
+    font-size: 3rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    border: 2px solid transparent;
+}
+.freelancer h6{
+    font-size: 1rem;
+    font-weight: 100;
+    margin-bottom: 2.5rem;
+    font-family: 'Lato',sans-serif;
+}
+.freelancer h1 :hover{
+    border-color: aqua;
+}
+.reviews .container h1,h5{
+    text-align: center;
+}
+.reviews .container span{
+    color: rgb(0, 153, 255);
+    font-size: 40px;
+    
+}
+.reviews .container h1{
+    font-size: 40px;
+    margin-bottom: 1rem;
+
+}
+.reviews .container h5{
+    font-size: 20px;
+    font-family: 'Lato',sans-serif;
+    font-weight: 100;
+    color: gray;
+}
+.slide{
+    align-items: center;
+}
+.slide img{
+    height: 170px;
+    width: 170px;
+    margin-left: 20rem;
+    padding: 1rem 1rem;
+}
+.slider .slide h5{
+    color: black;
+    margin-top: 1rem;
+    line-height: 1.3;
+}
+.slider .slide h4{
+    font-size: 18px;
+    margin-left: 18rem;
+    margin-top: 1rem;
+
+}
+
